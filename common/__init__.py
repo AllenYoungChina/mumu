@@ -17,3 +17,6 @@ def setup_logging():
 
     # 为全局的日志工具对象添加日志记录器
     logging.getLogger().addHandler(file_log_handler)
+
+
+setup_logging()
